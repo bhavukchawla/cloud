@@ -18,6 +18,22 @@ sudo chmod -R 777 /var/lib/zookeeper
 ```bash
 sudo systemctl start confluent-zookeeper
 ```
+**Note:** If you are facing issue while starting zookeeper
+Open myid file and specify ``0`` in it 
+```bash
+sudo vi /var/lib/zookeeper/myid
+```
+ 
+### Restart the Zookeeper Services: 
+```bash
+sudo systemctl restart confluent-zookeeper
+```
+
+### Check the status of Zookeeper Services: 
+```bash
+sudo systemctl status confluent-zookeeper
+```
+
 #### Start Confluent server
 ```bash
 sudo systemctl start confluent-server.service
