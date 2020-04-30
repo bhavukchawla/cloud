@@ -1,4 +1,4 @@
-Install Confluent Server 5.5
+Install Confluent Server 5.5 on a Single Node
 ================================
 
 #### Install Confluent Kafka using below commands:
@@ -19,7 +19,7 @@ sudo chmod -R 777 /var/lib/zookeeper
 sudo systemctl start confluent-zookeeper
 ```
 **Note:** If you are facing issue while starting zookeeper
-Open myid file and specify ``0`` in it 
+Open myid file and specify ``0`` in it (remove the existing id)
 ```bash
 sudo vi /var/lib/zookeeper/myid
 ```
