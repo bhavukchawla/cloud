@@ -37,7 +37,7 @@ Remote server at http://localhost:8088 does not appear to be a valid KSQL
 
 server. Please ensure that the URL provided is for an active KSQL server.
 
-![alt text](http://forum.datacouch.io/uploads/943/5C0AP9MDCF0Z.png)
+![alt text](https://i.ibb.co/K29zwyD/5-C0-AP9-MDCF0-Z.png)
  
 #### Edit ksql-server.properties 
 ```bash
